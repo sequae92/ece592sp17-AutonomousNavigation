@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: store_images
+Description: Description of store_images
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

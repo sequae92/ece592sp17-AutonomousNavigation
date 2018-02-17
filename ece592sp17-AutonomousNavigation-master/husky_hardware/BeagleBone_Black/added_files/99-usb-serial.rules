@@ -1,0 +1,6 @@
+SUBSYSTEM=="tty", ATTRS{idVendor}=="067b", ATTRS{idProduct}=="2303", ATTRS{serial}=="0000:00:14.0", ATTRS{bcdDevice}=="0400",  SYMLINK+="jetson"
+ACTION=="add", ATTRS{idVendor}=="067b", ATTRS{idProduct}=="2303", ATTRS{bcdDevice}=="0400",  SYMLINK+="jetson"
+
+SUBSYSTEM=="tty", ATTRS{idVendor}=="067b", ATTRS{idProduct}=="2303", ATTRS{serial}=="musb-hdrc.1.auto", ATTRS{bcdDevice}=="0300", SYMLINK+="husky"
+ACTION=="add", ATTRS{idVendor}=="067b", ATTRS{idProduct}=="2303", ATTRS{bcdDevice}=="0300", SYMLINK+="husky"
+

@@ -1,0 +1,8 @@
+prefix=/home/robot/catkin_ws/src/store_images/src/devel
+
+Name: store_images
+Description: Description of store_images
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/robot/catkin_ws/src/store_images/src/devel/lib 
+Requires: 
